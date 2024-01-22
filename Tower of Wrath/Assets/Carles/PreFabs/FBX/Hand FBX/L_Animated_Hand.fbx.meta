@@ -33,7 +33,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Relax
+      name: VR_Hand_Relax
       takeName: Take 001
       internalID: 1827226128182048838
       firstFrame: 1
@@ -62,7 +62,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Pinch
+      name: VR_Hand_Pinch
       takeName: Take 001
       internalID: 9067093048684652814
       firstFrame: 21
@@ -91,9 +91,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Fist
+      name: VR_Hand_Fist
       takeName: Take 001
-      internalID: 3060872287085348379
+      internalID: -8481709605947105597
       firstFrame: 41
       lastFrame: 43
       wrapMode: 0
@@ -120,9 +120,9 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 1
     - serializedVersion: 16
-      name: Pointing
+      name: VR_Hand_Pointing
       takeName: Take 001
-      internalID: 1465369574596688972
+      internalID: 1178167638873134046
       firstFrame: 61
       lastFrame: 63
       wrapMode: 0
