@@ -64,9 +64,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1212
+    x: 1546
     y: 0
-    width: 708
+    width: 374
     height: 947
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -93,7 +93,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 299
-    height: 561
+    height: 681
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
@@ -117,9 +117,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 561
-    width: 1212
-    height: 386
+    y: 681
+    width: 1546
+    height: 266
   m_MinSize: {x: 231, y: 271}
   m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 14}
@@ -218,7 +218,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1212
+    width: 1546
     height: 947
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
@@ -243,8 +243,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1212
-    height: 561
+    width: 1546
+    height: 681
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -266,8 +266,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299
     y: 0
-    width: 913
-    height: 561
+    width: 1247
+    height: 681
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
@@ -277,7 +277,7 @@ MonoBehaviour:
   - {fileID: 13}
   - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 3
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 634
-    width: 1211
-    height: 365
+    y: 754
+    width: 1545
+    height: 245
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -483,7 +483,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Fantasy Skybox FREE/Cubemaps/Classic
+    - Assets/Carles/PreFabs
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -491,16 +491,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 76
   m_LastFolders:
-  - Assets/Fantasy Skybox FREE/Cubemaps/Classic
+  - Assets/Carles/PreFabs
   m_LastFoldersGridSize: 76
   m_LastProjectPath: E:\Github\TowerOfWrath_VRaccoons\Tower of Wrath
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 31}
-    m_SelectedIDs: 4e7d0000
-    m_LastClickedID: 32078
-    m_ExpandedIDs: 000000004c7700004e77000050770000527700005477000056770000587700005a7700005c7700005e7700001a7a0000227a0000267a00002a7a00002e7a0000367a00002a7d00002e7d0000327d0000ffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 0e7a0000
+    m_LastClickedID: 31246
+    m_ExpandedIDs: 00000000427800004478000046780000487800004a7800004c7800004e7800005078000052780000547800000e7a0000727a00007e7a00003a7d00009e860000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -528,7 +528,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004c7700004e77000050770000527700005477000056770000587700005a7700005c7700005e770000
+    m_ExpandedIDs: 00000000427800004478000046780000487800004a7800004c7800004e780000507800005278000054780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -580,7 +580,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 91}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 76
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -605,9 +605,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1212
+    x: 1546
     y: 73
-    width: 707
+    width: 373
     height: 926
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -656,7 +656,7 @@ MonoBehaviour:
     x: 0
     y: 73
     width: 298
-    height: 540
+    height: 660
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -670,9 +670,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4e7d0000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b2faffff1efbffffc67200007e730000
+      m_ExpandedIDs: f401f9ffb202f9ffbe17f9ffb230feffdc5effff20fbffff24fbffff2afbffff76730000c073000070740000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -719,8 +719,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299
     y: 73
-    width: 911
-    height: 540
+    width: 1245
+    height: 660
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1040,9 +1040,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.2245086, y: 4.558577, z: -4.714423}
+    m_Target: {x: 11.239801, y: -4.796673, z: -24.79676}
     speed: 2
-    m_Value: {x: -1.2245169, y: 4.5585775, z: -4.7144203}
+    m_Value: {x: 11.239801, y: -4.796673, z: -24.79676}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1088,13 +1088,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.041087274, y: 0.47862092, z: -0.022408312, w: 0.8769172}
+    m_Target: {x: 0.034889378, y: 0.96037465, z: -0.17451905, w: 0.21615022}
     speed: 2
-    m_Value: {x: 0.037075605, y: 0.48128542, z: -0.020362224, w: 0.87554276}
+    m_Value: {x: 0.035359673, y: 0.95992935, z: -0.1803751, w: 0.21154268}
   m_Size:
-    m_Target: 0.8660254
+    m_Target: 13.696381
     speed: 2
-    m_Value: 0.8660254
+    m_Value: 14.34176
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1187,7 +1187,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1240,9 +1240,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 634
+    y: 754
     width: 1211
-    height: 365
+    height: 245
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
