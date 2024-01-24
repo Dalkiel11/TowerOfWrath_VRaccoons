@@ -12,6 +12,7 @@ public class KeyPadManager : MonoBehaviour
     private List<int> inputPasswordList = new List<int>();
     [SerializeField] private TMP_InputField codeDisplay;
     [SerializeField] private string successText;
+    [SerializeField] private float resetTime = 2f;
 
     [Space(5f)]
     [Header("======Keypad Entry Events======")]
@@ -113,13 +114,14 @@ public class KeyPadManager : MonoBehaviour
 
 
 
-    IEnumerator ResetKeycode()
-    {
+     IEnumerator ResetKeycode()
+   {
+        yield return new WaitForSeconds(resetTime);
 
         inputPasswordList.Clear();
 
-        codeDisplay.text = "EnterCode...";
-    }
+      codeDisplay.text = "EnterCode...";
+   }
 
 
 

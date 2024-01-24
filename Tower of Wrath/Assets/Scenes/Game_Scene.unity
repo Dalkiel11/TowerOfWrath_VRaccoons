@@ -9936,6 +9936,8 @@ MonoBehaviour:
   winConditionTrigger: {fileID: 1304653787}
   puertaWinConditon1: {fileID: 502331916}
   puertaWinCondition2: {fileID: 502331915}
+  puertaWinCondition3: {fileID: 1452454880}
+  puertaWinCondition4: {fileID: 1452454879}
 --- !u!1001 &1437346795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10255,6 +10257,18 @@ PrefabInstance:
 --- !u!4 &1452454878 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4552328751171393771, guid: 31bd5754ddcc7f4409fe98f3f616d5e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1452454877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1452454879 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3369050724629370224, guid: 31bd5754ddcc7f4409fe98f3f616d5e3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1452454877}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1452454880 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8193321365940679266, guid: 31bd5754ddcc7f4409fe98f3f616d5e3,
     type: 3}
   m_PrefabInstance: {fileID: 1452454877}
   m_PrefabAsset: {fileID: 0}
@@ -11634,6 +11648,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1696093128}
   - component: {fileID: 1696093129}
+  - component: {fileID: 1696093131}
+  - component: {fileID: 1696093130}
   m_Layer: 0
   m_Name: ===KEYPAD===
   m_TagString: Untagged
@@ -11672,12 +11688,75 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.3526, y: 5.172017, z: 5.3481817}
   m_Center: {x: 20.25174, y: 3.668632, z: 3.870439}
+--- !u!114 &1696093130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696093127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7622aaa4ca2c6947b6b2b8252a2eda2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftHandDefault: {fileID: 16618590}
+  rightHandDefault: {fileID: 1718815012}
+  leftHandUI: {fileID: 457270037}
+  rightHandUI: {fileID: 62958040}
+--- !u!114 &1696093131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696093127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68aed5f90ea449f4e8828e19f636ae0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctPassword: 010000000200000003000000
+  codeDisplay: {fileID: 43376311}
+  successText: Access Granted
+  resetTime: 2
+  onCorrectPassword:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1399122549}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: OpenTheDoor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onIncorrectPassword:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 43376311}
+        m_TargetAssemblyTypeName: TMPro.TMP_InputField, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: ACCESS DENIED
+          m_BoolArgument: 0
+        m_CallState: 2
+  allowMultipleActivations: 0
 --- !u!1 &1698178872
 GameObject:
   m_ObjectHideFlags: 0

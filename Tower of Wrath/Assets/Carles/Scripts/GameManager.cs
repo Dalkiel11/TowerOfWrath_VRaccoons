@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Security.Cryptography.X509Certificates;
 
 
 public class GameManager : MonoBehaviour
@@ -17,6 +18,8 @@ public class GameManager : MonoBehaviour
     public GameObject winConditionTrigger;
     public GameObject puertaWinConditon1;
     public GameObject puertaWinCondition2;
+    public GameObject puertaWinCondition3;
+    public GameObject puertaWinCondition4;
 
 
     private void Awake()
@@ -31,15 +34,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void OpenTheDoor()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        puertaWinCondition2.SetActive(false);
+        puertaWinConditon1.SetActive(false);
+        puertaWinCondition3.SetActive(false);
+        puertaWinCondition4.SetActive(false);
     }
 }
