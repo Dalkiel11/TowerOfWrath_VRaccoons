@@ -138,11 +138,11 @@ GameObject:
   - component: {fileID: 16618592}
   m_Layer: 3
   m_Name: Left Controller_Directional
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &16618591
 Transform:
   m_ObjectHideFlags: 0
@@ -754,11 +754,11 @@ GameObject:
   - component: {fileID: 62958047}
   m_Layer: 3
   m_Name: Right Controller_RayCast
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &62958041
 Transform:
   m_ObjectHideFlags: 0
@@ -799,7 +799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LineWidth: 0.005
+  m_LineWidth: 0.05
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
   m_AutoAdjustLineLength: 0
@@ -922,7 +922,7 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
-  m_TreatSelectionAsValidState: 0
+  m_TreatSelectionAsValidState: 1
   m_SmoothMovement: 0
   m_FollowTightness: 10
   m_SnapThresholdDistance: 10
@@ -1088,7 +1088,7 @@ MonoBehaviour:
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
-  m_SelectActionTrigger: 1
+  m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
   m_AllowHoveredActivate: 0
   m_TargetPriorityMode: 0
@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_AllowHoverHapticsWhileSelecting: 1
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 30
+  m_MaxRaycastDistance: 10
   m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -1152,7 +1152,7 @@ MonoBehaviour:
   m_AutoDeselect: 0
   m_TimeToAutoDeselect: 3
   m_EnableUIInteraction: 1
-  m_BlockUIOnInteractableSelection: 0
+  m_BlockUIOnInteractableSelection: 1
   m_AllowAnchorControl: 1
   m_UseForceGrab: 1
   m_RotateSpeed: 180
@@ -3205,11 +3205,11 @@ GameObject:
   - component: {fileID: 457270044}
   m_Layer: 3
   m_Name: Left Controller_RayCast
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &457270038
 Transform:
   m_ObjectHideFlags: 0
@@ -3250,7 +3250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e988983f96fe1dd48800bcdfc82f23e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_LineWidth: 0.005
+  m_LineWidth: 0.05
   m_OverrideInteractorLineLength: 1
   m_LineLength: 10
   m_AutoAdjustLineLength: 0
@@ -3539,7 +3539,7 @@ MonoBehaviour:
   m_OnSelectExited:
     m_PersistentCalls:
       m_Calls: []
-  m_SelectActionTrigger: 1
+  m_SelectActionTrigger: 0
   m_HideControllerOnSelect: 0
   m_AllowHoveredActivate: 0
   m_TargetPriorityMode: 0
@@ -3577,7 +3577,7 @@ MonoBehaviour:
   m_AllowHoverHapticsWhileSelecting: 1
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 2
+  m_MaxRaycastDistance: 10
   m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -3603,7 +3603,7 @@ MonoBehaviour:
   m_AutoDeselect: 0
   m_TimeToAutoDeselect: 3
   m_EnableUIInteraction: 1
-  m_BlockUIOnInteractableSelection: 0
+  m_BlockUIOnInteractableSelection: 1
   m_AllowAnchorControl: 1
   m_UseForceGrab: 1
   m_RotateSpeed: 180
@@ -6753,17 +6753,17 @@ PrefabInstance:
     - target: {fileID: 3150918815832732546, guid: 2b3e954306e11464296947b4da039f9d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.025177
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3150918815832732546, guid: 2b3e954306e11464296947b4da039f9d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.00016141
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3150918815832732546, guid: 2b3e954306e11464296947b4da039f9d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0097317
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3150918815832732546, guid: 2b3e954306e11464296947b4da039f9d,
         type: 3}
@@ -8274,7 +8274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &912281296
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8306,7 +8306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
+  m_IgnoreReversedGraphics: 0
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
@@ -12229,7 +12229,7 @@ PrefabInstance:
     - target: {fileID: 3369050724629370224, guid: 31bd5754ddcc7f4409fe98f3f616d5e3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3775932171344020049, guid: 31bd5754ddcc7f4409fe98f3f616d5e3,
         type: 3}
@@ -12299,7 +12299,7 @@ PrefabInstance:
     - target: {fileID: 8193321365940679266, guid: 31bd5754ddcc7f4409fe98f3f616d5e3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -12419,17 +12419,17 @@ PrefabInstance:
     - target: {fileID: 8016024318612989955, guid: 210b8fbf235f0e94b8d4df079768fb3d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.02881
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8016024318612989955, guid: 210b8fbf235f0e94b8d4df079768fb3d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0001614
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8016024318612989955, guid: 210b8fbf235f0e94b8d4df079768fb3d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0097317
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8016024318612989955, guid: 210b8fbf235f0e94b8d4df079768fb3d,
         type: 3}
@@ -13018,17 +13018,17 @@ PrefabInstance:
     - target: {fileID: 8016024318612989955, guid: 210b8fbf235f0e94b8d4df079768fb3d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.02881
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8016024318612989955, guid: 210b8fbf235f0e94b8d4df079768fb3d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0001614
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8016024318612989955, guid: 210b8fbf235f0e94b8d4df079768fb3d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0097317
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8016024318612989955, guid: 210b8fbf235f0e94b8d4df079768fb3d,
         type: 3}
@@ -13933,7 +13933,6 @@ GameObject:
   - component: {fileID: 1550620424}
   - component: {fileID: 1550620427}
   - component: {fileID: 1550620426}
-  - component: {fileID: 1550620425}
   m_Layer: 0
   m_Name: KeyCode_Panel
   m_TagString: Untagged
@@ -13972,27 +13971,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!65 &1550620425
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550620423}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1229.6353, y: 639.8894, z: 6.719243}
-  m_Center: {x: 7.7980313, y: -0.36452666, z: -3.8596168}
 --- !u!114 &1550620426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15506,11 +15484,11 @@ GameObject:
   - component: {fileID: 1718815014}
   m_Layer: 3
   m_Name: Right Controller_Directional
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1718815013
 Transform:
   m_ObjectHideFlags: 0
@@ -15547,7 +15525,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
-  m_DisableVisualsWhenBlockedInGroup: 1
+  m_DisableVisualsWhenBlockedInGroup: 0
   m_StartingSelectedInteractable: {fileID: 0}
   m_StartingTargetFilter: {fileID: 0}
   m_HoverEntered:
@@ -17100,6 +17078,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1823471379}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1855117555 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 4089031715771774786, guid: 7ad8cc11c46973f488e752dae6f589b8,
+    type: 3}
+  m_PrefabInstance: {fileID: 1061694809287619385}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1858947343
 GameObject:
   m_ObjectHideFlags: 0
@@ -17753,7 +17737,7 @@ CharacterController:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Height: 3.5
+  m_Height: 3
   m_Radius: 0.5
   m_SlopeLimit: 45
   m_StepOffset: 0.3
@@ -19715,11 +19699,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339710823}
     m_Modifications:
-    - target: {fileID: 1976216008158123268, guid: aab48329a18d5984b9ad865569c134ea,
-        type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 539858908}
     - target: {fileID: 4729182501213604826, guid: aab48329a18d5984b9ad865569c134ea,
         type: 3}
       propertyPath: m_Name
@@ -19878,6 +19857,16 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 539858908}
+    - target: {fileID: 606513164834435886, guid: 7ad8cc11c46973f488e752dae6f589b8,
+        type: 3}
+      propertyPath: m_Colliders.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 606513164834435886, guid: 7ad8cc11c46973f488e752dae6f589b8,
+        type: 3}
+      propertyPath: m_Colliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 1855117555}
     - target: {fileID: 3134897133068789215, guid: 7ad8cc11c46973f488e752dae6f589b8,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -19974,7 +19963,7 @@ PrefabInstance:
     - target: {fileID: 3369050724629370224, guid: 31bd5754ddcc7f4409fe98f3f616d5e3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3775932171344020049, guid: 31bd5754ddcc7f4409fe98f3f616d5e3,
         type: 3}
@@ -20044,7 +20033,7 @@ PrefabInstance:
     - target: {fileID: 8193321365940679266, guid: 31bd5754ddcc7f4409fe98f3f616d5e3,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -20626,6 +20615,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword_Type_01
       objectReference: {fileID: 0}
+    - target: {fileID: 5313876711420982154, guid: 91db91cc7913e5549997d51b7a70d1dd,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 539858908}
+    - target: {fileID: 5313876711420982154, guid: 91db91cc7913e5549997d51b7a70d1dd,
+        type: 3}
+      propertyPath: m_Colliders.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5313876711420982154, guid: 91db91cc7913e5549997d51b7a70d1dd,
+        type: 3}
+      propertyPath: m_Colliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 3325550056487192162}
     - target: {fileID: 6709283851449545564, guid: 91db91cc7913e5549997d51b7a70d1dd,
         type: 3}
       propertyPath: m_InteractionManager
@@ -21016,30 +21020,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339710823}
     m_Modifications:
-    - target: {fileID: 1976216008158123268, guid: aab48329a18d5984b9ad865569c134ea,
-        type: 3}
-      propertyPath: m_InteractionManager
-      value: 
-      objectReference: {fileID: 539858908}
     - target: {fileID: 4729182501213604826, guid: aab48329a18d5984b9ad865569c134ea,
         type: 3}
       propertyPath: m_Name
       value: Llibre_Magic
-      objectReference: {fileID: 0}
-    - target: {fileID: 5398336840239731040, guid: aab48329a18d5984b9ad865569c134ea,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.3182
-      objectReference: {fileID: 0}
-    - target: {fileID: 5398336840239731040, guid: aab48329a18d5984b9ad865569c134ea,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.3182
-      objectReference: {fileID: 0}
-    - target: {fileID: 5398336840239731040, guid: aab48329a18d5984b9ad865569c134ea,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.3182
       objectReference: {fileID: 0}
     - target: {fileID: 5398336840239731040, guid: aab48329a18d5984b9ad865569c134ea,
         type: 3}
@@ -21677,6 +21661,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1339710823}
     m_Modifications:
+    - target: {fileID: 5064195467040872056, guid: 23d1d2a3f0e4b1041b4f948433ebd3ac,
+        type: 3}
+      propertyPath: m_InteractionManager
+      value: 
+      objectReference: {fileID: 539858908}
+    - target: {fileID: 5064195467040872056, guid: 23d1d2a3f0e4b1041b4f948433ebd3ac,
+        type: 3}
+      propertyPath: m_Colliders.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064195467040872056, guid: 23d1d2a3f0e4b1041b4f948433ebd3ac,
+        type: 3}
+      propertyPath: m_Colliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 7142834753193860937}
     - target: {fileID: 5990092997080174186, guid: 23d1d2a3f0e4b1041b4f948433ebd3ac,
         type: 3}
       propertyPath: m_LocalScale.y
@@ -21742,8 +21741,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sword_Type_02
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5069490668418450498, guid: 23d1d2a3f0e4b1041b4f948433ebd3ac, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
